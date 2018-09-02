@@ -1,0 +1,18 @@
+import java.io.*;
+class Vow
+{
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+String a=sc.next();
+char ch='a','e','i','o','u';
+if(a.equals(ch))
+{
+System.out.print("vowel");
+}
+else
+{
+System.out.print("consonant");
+}
+}
+}
